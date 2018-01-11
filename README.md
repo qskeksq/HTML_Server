@@ -1,12 +1,12 @@
 # Node Basics
 
 ## 클라이언트와 통신
-    - 1. URL 분석 : method -> pathname -> query
-    - 2. 페이지 라우팅 : html 페이지 readFile로 읽어오기
-    - 3. 웹페이지가 html의 src를 자동으로 서버에 요청
-    - 4. URL 분석
-    - 5. path 분석해서 src 스트림으로 가져오기
-    - 6. response에 넣어서 웹페이지에 응답
+- 1. URL 분석 : method -> pathname -> query
+- 2. 페이지 라우팅 : html 페이지 readFile로 읽어오기
+- 3. 웹페이지가 html의 src를 자동으로 서버에 요청
+- 4. URL 분석
+- 5. path 분석해서 src 스트림으로 가져오기
+- 6. response에 넣어서 웹페이지에 응답
 
 ### 클라이언트(HTML)
 
