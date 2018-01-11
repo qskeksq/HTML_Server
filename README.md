@@ -10,24 +10,27 @@
 
 ### 클라이언트(HTML)
 
-```html
-<html>
-    <head>
-        <!-- 여기는 브라우저 현재 페이지 정보를 알려줌 -->
-        <title>Hello Html!</title>
-    </head>
-    <body>
-        <!-- 여기는 브라우저 화면에 나타남 -->
-        <!-- 텍스트 입력창 -->
-        <!--                    post로 보낼 경우 url에 query가 붙지 않는다 -->
-        <form action="/signin" method="POST">
-            입력 : <input type="text" id="id" name="id" /> </br>
-            비밀번호 : <input type="text" id="pw" name="pw" /> </br>
-            <input type="submit" value="전송" />
-        </form>
-    </body>
-</html>
-```
+- 로그인
+
+	```html
+	<html>
+	    <head>
+		<!-- 여기는 브라우저 현재 페이지 정보를 알려줌 -->
+		<title>Hello Html!</title>
+	    </head>
+	    <body>
+		<!-- 여기는 브라우저 화면에 나타남 -->
+		<!-- 텍스트 입력창 -->
+		<!--                    post로 보낼 경우 url에 query가 붙지 않는다 -->
+		<form action="/signin" method="POST">
+		    입력 : <input type="text" id="id" name="id" /> </br>
+		    비밀번호 : <input type="text" id="pw" name="pw" /> </br>
+		    <input type="submit" value="전송" />
+		</form>
+	    </body>
+	</html>
+	```
+- 사진, 영상 페이지
 
 ```html
 <html>
